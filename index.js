@@ -26,10 +26,10 @@ function currentLine(arr) {
     var str = "The line is currently: ";
     for (let i = 0; i < arr.length; i++ )
     {
-      if (i === 1){
-        str += `${i}. ${arr[i]}`
+      if (i === 0){
+        str += `${i + 1}. ${arr[i]}`
       } else {
-        str += `, ${i}. ${arr[i]}`
+        str += `, ${i + 1}. ${arr[i]}`
       }
     }
   }
