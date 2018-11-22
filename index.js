@@ -13,9 +13,9 @@ function nowServing(arr) {
     return "There is nobody waiting to be served!";
   } else {
     let name = arr[0];
-    arr.shift;
-    console.log (`New array:  ${arr}`);
-    return `Currently serving ${name}.`
+    //arr.shift;
+
+    return `Currently serving ${arr.shift()}.`
   }
 }
 
