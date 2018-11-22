@@ -7,7 +7,7 @@ function takeANumber(arr, name) {
 }
 
 function nowServing(arr) {
-  idx = arr.length - 1;
+  var idx = arr.length - 1;
   if (arr.length < 0) {
     return "There is nobody waiting to be served!";
   } else {
@@ -22,7 +22,7 @@ function currentLine(arr) {
     return "The line is currently empty."
   } else {
     let str = "The line is currently: ";
-    for (i = 0; i < arr.length; i++ )
+    for (let i = 0; i < arr.length; i++ )
     {
       if (i === 1){
         str += `${i}. ${arr[i]}`
