@@ -33,5 +33,3 @@ function currentLine(arr) {
   }
   return str;
 }
-
-
