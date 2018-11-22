@@ -7,11 +7,12 @@ function takeANumber(arr, name) {
 }
 
 function nowServing(arr) {
+  //otherDeli = ["Steven", "Blake", "Avi"];
   var idx = arr.length - 1;
   if (idx < 0) {
     return "There is nobody waiting to be served!";
   } else {
-    let name = arr[idx];
+    let name = arr[0];
     arr.shift;
     return `Currently serving ${name}.`
   }
