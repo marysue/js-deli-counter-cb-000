@@ -14,7 +14,8 @@ function nowServing(arr) {
   } else {
     let name = arr[0];
     arr.shift;
-    return `Currently serving ${name}.`
+    console.log `Currently serving ${name}.`
+    return arr;
   }
 }
 
