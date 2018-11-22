@@ -8,7 +8,7 @@ function takeANumber(arr, name) {
 
 function nowServing(arr) {
   var idx = arr.length - 1;
-  if (arr.length < 0) {
+  if (idx < 0) {
     return "There is nobody waiting to be served!";
   } else {
     let name = arr[idx];
