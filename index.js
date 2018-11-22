@@ -21,7 +21,7 @@ function currentLine(arr) {
   if (arr.length === 0) {
     return "The line is currently empty."
   } else {
-    let str = "The line is currently: ";
+    var str = "The line is currently: ";
     for (let i = 0; i < arr.length; i++ )
     {
       if (i === 1){
