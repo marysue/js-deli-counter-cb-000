@@ -22,7 +22,7 @@ function currentLine(arr) {
     return "The line is currently empty."
   } else {
     let str = "The line is currently: ";
-    while (i = 0; i < arr.length; i++ )
+    for (i = 0; i < arr.length; i++ )
     {
       if (i === 1){
         str += `${i}. ${arr[i]}`
